@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input {
+    padding: 5px;
+    margin-right: 5px;
+}
+.search-container button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
