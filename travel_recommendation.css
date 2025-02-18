@@ -1,5 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
 }
 .navbar {
     display: flex;
@@ -28,4 +35,11 @@ body {
 .search-container button {
     padding: 5px 10px;
     cursor: pointer;
+}
+.intro {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    border-radius: 10px;
 }
